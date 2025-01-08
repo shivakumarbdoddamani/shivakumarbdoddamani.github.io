@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist --repo https://github.com/shivakumarbdoddamani/shivakumar.git",
     "clean": "rm -rf dist"
   },
   "dependencies": {
