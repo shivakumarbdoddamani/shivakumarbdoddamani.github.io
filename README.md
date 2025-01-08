@@ -1,99 +1,76 @@
-Shivakumar's Web Project
 
-This project is built using React and Vite, with additional support for the deployment of GitHub Pages and Netlify. Follow the steps below to run and deploy the project locally or to production.
+# Shivakumar Doddamani
 
-Prerequisites
+I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
 
-Node.js: Make sure you have Node.js installed on your system. You can download it from Node.js Official Site.
+I am fluent in classics like Javascript and jQuery.
 
-Netlify CLI: Install the Netlify CLI globally:
+My field of Interest's are building new  Web and Mobile Technologies.
 
-npm install -g netlify-cli
+Whenever possible, I also apply my passion for developing products with Modern Javascript Library and Frameworks  like React.js, React Native and Next.js
 
-GitHub Pages Configuration: Ensure the homepage field in package.json points to your GitHub Pages URL:
 
-"homepage": "http://shivakumarbdoddamani.github.io/"
+## Appendix
 
-Running Locally
+This is my personal portfolio
 
-To run the project locally:
 
-Install dependencies:
+## Authors
 
-npm install
+- [@shivakumarbdoddamani](https://www.github.com/shivakumarbdoddamani)
 
-Start the development server:
 
-npm run dev
+## Badges
 
-This will start the Vite development server. Open http://localhost:3000 in your browser to view the project.
+Add badges from somewhere like: [shields.io](https://shields.io/)
 
-Deployment
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-Step 1: Clean the dist Folder
 
-Before building, ensure the dist folder (if any) is removed:
+## Contributing
 
-npm run clean
+Contributions are always welcome!
 
-Step 2: Build the Project
+See `contributing.md` for ways to get started.
 
-Build the project for production:
+Please adhere to this project's `code of conduct`.
 
-npm run build
 
-This will create an optimized build in the dist directory.
+## Demo
 
-Step 3: Deploy to GitHub Pages and Netlify
+https://shivakumardoddamani.netlify.app/
+https://shivakumardoddamani.info/
 
-To deploy the project to both GitHub Pages and Netlify:
 
-npm run deploy:all
+## Deployment
 
-This command performs the following:
+To deploy this project run
 
-Deploys the dist folder to GitHub Pages using the gh-pages package.
+```bash
+  npm run clean
+  npm run build
+  npm run deploy:all
+```
 
-Builds and deploys the project to Netlify using the netlify-cli.
 
-Deployment to Individual Platforms
+## Screenshots
+Screenshot.png
 
-Deploy to GitHub Pages Only
 
-To deploy only to GitHub Pages:
 
-npm run deploy:gh-pages
+## 🚀 About Me
+I'm a full stack developer...
 
-Deploy to Netlify Only
 
-To deploy only to Netlify:
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://shivakumardoddamani.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivakumardoddamani)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/doddamanishivu)
 
-Build the project for Netlify:
 
-npm run build:netlify
+## Support
 
-Deploy the build to Netlify:
+For support, email shivakumarbdoddamani@gmail.com or connect with me on Linkedin.
 
-npm run deploy:netlify
-
-Ensure you have configured the following Netlify environment variables:
-
-NETLIFY_AUTH_TOKEN: Your Netlify access token.
-
-NETLIFY_SITE_ID: Your Netlify site ID.
-
-Additional Scripts
-
-npm run lint: Lint the codebase to ensure code quality.
-
-npm run preview: Preview the production build locally.
-
-npm run clean: Remove the dist directory.
-
-Notes
-
-For GitHub Pages, ensure the gh-pages branch is enabled in your repository settings under "Pages".
-
-For Netlify, ensure your site is connected to your Netlify account and properly configured.
-
-For any issues or questions, feel free to open an issue in this repository.
